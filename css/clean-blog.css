@@ -40,10 +40,10 @@ blockquote {
   font-style: italic;
 }
 hr.small {
-  max-width: 100px;
+  max-width: 150px;
   margin: 15px auto;
   border-width: 4px;
-  border-color: white;
+  border-color: rgb(241, 19, 19);
 }
 .navbar-custom {
   position: absolute;
@@ -57,7 +57,7 @@ hr.small {
   font-weight: 800;
 }
 .navbar-custom .navbar-header .navbar-toggle {
-  color: #777777;
+  color: #ebe8e8;
   font-weight: 800;
   text-transform: uppercase;
   font-size: 12px;
@@ -74,7 +74,7 @@ hr.small {
     border-bottom: 1px solid transparent;
   }
   .navbar-custom .navbar-brand {
-    color: white;
+    color: rgb(14, 13, 13);
     padding: 20px;
   }
   .navbar-custom .navbar-brand:hover,
@@ -145,7 +145,7 @@ hr.small {
   }
 }
 .intro-header {
-  background-color: #777777;
+  background-color: #d1cdcd;
   background: no-repeat center center;
   background-attachment: scroll;
   -webkit-background-size: cover;
@@ -212,7 +212,7 @@ hr.small {
   font-size: 20px;
 }
 .intro-header .post-heading .meta a {
-  color: white;
+  color: rgb(22, 22, 22);
 }
 @media only screen and (min-width: 768px) {
   .intro-header .post-heading h1 {
@@ -224,6 +224,10 @@ hr.small {
 }
 .post-preview > a {
   color: #333333;
+}
+.photo {
+  height:200px;
+  margin-right:80px
 }
 .post-preview > a:hover,
 .post-preview > a:focus {
@@ -240,6 +244,9 @@ hr.small {
   font-weight: 300;
   margin-bottom: 10px;
 }
+.p.thick {
+  font-weight: bold
+}
 .post-preview > .post-meta {
   color: #777777;
   font-size: 18px;
@@ -254,6 +261,10 @@ hr.small {
 .post-preview > .post-meta > a:focus {
   color: #0085A1;
   text-decoration: underline;
+}
+.ship {
+  float: left;
+  margin-right:80px;
 }
 @media only screen and (min-width: 768px) {
   .post-preview > a > .post-title {
@@ -356,6 +367,10 @@ form .row:first-child .floating-label-form-group {
   border: 1px solid #0085A1;
   color: white;
 }
+.hailu {
+  height:200px;
+  margin-left:60px
+}
 .pager {
   margin: 20px 0 0;
 }
@@ -390,7 +405,7 @@ form .row:first-child .floating-label-form-group {
   background: #0085A1;
 }
 ::selection {
-  color: white;
+  color: rgb(15, 15, 15);
   text-shadow: none;
   background: #0085A1;
 }
